@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-
+import { ExampleButton } from "../css exampels/button"
 export default function Home() {
   return (
     <>
@@ -15,6 +15,7 @@ export default function Home() {
             consequuntur laboriosam quia voluptate libero praesentium adipisci
             molestias eaque, veniam tempora omnis ipsa?
           </p>
+          <ExampleButton>click Me</ExampleButton>
         </div>
       </Layout>
     </>
