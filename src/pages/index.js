@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <h1 style={{color:"red"}}>hello people</h1>
+        <h1>hello people</h1>
         <div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
