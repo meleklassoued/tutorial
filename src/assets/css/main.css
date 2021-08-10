@@ -361,7 +361,7 @@ form>*:last-child {
 /*#########*/
 /* Navbar */
 /*#########*/
-.navbar {
+.navbar { 
     display: flex;
     align-items: center;
     justify-content: center;
