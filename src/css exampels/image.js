@@ -6,14 +6,24 @@ import { StaticImage } from "gatsby-plugin-image"
 const images = () => {
   return (
     <Wrapper>
-      <StaticImage src="../assets/images/big.jpg" alt="food"/>
+      <article>
+        <h4>constrained /default</h4>
+        <StaticImage
+          src="../assets/images/big.jpg"
+          alt="food"
+          height={400}
+          placeholder="tracedSVG"
+          layout="constrained"
+          className="example-img"
+          as="section"
+        />
+      </article>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-  img {
-    width: 200px;
-  }
+  width: 70vw;
+  margin: 0 auto;
 `
 
 export default images
